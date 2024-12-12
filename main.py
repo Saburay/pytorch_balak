@@ -16,7 +16,7 @@ def act(x):
 w_hidden = torch.FloatTensor([[1,1,-1.5],[1,1,-0.5]])
 w_out = torch.FloatTensor([-1,1,-0.5])
 
-data_x = [1,1]#input data x1,x2
+data_x = [0.8,0.9]#input data x1,x2
 x = torch.FloatTensor(data_x+[1])
 
 z_hidden = torch.matmul(w_hidden,x)
